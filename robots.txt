@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://algerdrive.github.io/sitemap.xml
