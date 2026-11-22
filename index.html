@@ -3,6 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0E3B43">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/icon-192.png">
 <title>Location de voiture à Alger – Alger Drive | Livraison gratuite aéroport</title>
 <meta name="description" content="Louez une Renault Clio 5, une Geely Coolray ou un Hyundai Tucson à Alger dès 30 €/jour. Livraison gratuite à l’aéroport d’Alger, kilométrage et assurance inclus. Réservation sur WhatsApp : 0558 35 74 11.">
 <link rel="canonical" href="https://algerdrive.github.io/">
@@ -362,6 +366,7 @@ document.querySelectorAll(".lg").forEach(function(a){a.addEventListener("click",
   if(!s){var b=(navigator.language||"fr").slice(0,2);s=b==="en"?"en":b==="ar"?"ar":"fr"}
   setLang(s);
 })();
+if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").catch(function(){})})}
 </script>
 </body>
 </html>
